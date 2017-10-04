@@ -10,7 +10,8 @@ menu:
   archives: 아카이브
   categories: 카테고리
   tags: 태그
-  about: About
+  github: 깃헙
+  about: 이봉
   search: 검색
 
 sidebar:
