@@ -291,7 +291,9 @@
 
       {% if is_index %}
         {% if post.description and theme.excerpt_description %}
+        <p class="text-center">
           {{ post.description }}
+          </p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="{{ url_for(post.path) }}">
@@ -398,6 +400,9 @@
         {% endif %}
         </div>
       {% endif %}
+      <h1 class="post-button text-center">
+        기술 관련된 글 포스팅은 앞으로 <a href="https://medium.com/@deptno">medium.com/@deptno</a>에 포스팅합니다.
+      </h1>
       {% endif %}
 
       {% if not is_index and (post.prev or post.next) %}
